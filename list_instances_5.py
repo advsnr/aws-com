@@ -1,34 +1,45 @@
 import boto3
 import csv
 import datetime
-ec2 = boto3.resource('ec2')
-ec21 = boto3.client('ec2')
-response1 = ec21.describe_instances().get('Reservation')
+import boto.ec2
+from dateutil.parser import *
+import subprocess
 
-with open('/Users/srahman/Documents/Shamim_works/gitrepo/ev/ansible/playbooks/devaws/ec2_list_1.csv', 'a', newline='') as file:
+
+regions = ['us-west-2', 'us-west-1', 'us-east-1']
+
+
+with open('ec2_list_1.csv', 'a', newline='') as file:
     header = ['Instancename', 'Id', 'State',
-              'Platform', 'InstanceType', 'Launched', 'RegionNames']
-    writer = csv.DictWriter(file, fieldnames=header)
+              'Platform', 'InstanceType', 'Launchedtime', 'Region', 'Uptime']
+    writer = csv.DictWriter(file, fieldnames=header, extrasaction='ignore')
     writer.writeheader()
-    for i in ec2.instances.all():
-        Id = i.id
-        State = i.state['Name']
-        Launched = i.launch_time
-        InstanceType = i.instance_type
-        Platform = i.platform
-        RegionNames= i.region
 
-        if i.tags:
-            for idx, tag in enumerate(i.tags, start=1):
-                if tag['Key'] == 'Name':
-                    Instancename = tag['Value']
-                    output = {
-                            'Instancename': Instancename,
-                            'Id': Id,
-                            'State': State,
-                            'Platform': str(Platform),
-                            'InstanceType': InstanceType,
-                            'Launched': str(Launched),
-                            'RegionNames': str(RegionNames)
-                            }
-                    writer.writerow(output)
+    for region in regions:
+        session = boto3.session.Session(region_name=region)
+        ec2 = session.resource('ec2')
+
+        for i in ec2.instances.all():
+            Id = i.id
+            State = i.state['Name']
+            Launchtime = i.launch_time
+            InstanceType = i.instance_type
+            Platform = i.platform
+            currenttime = datetime.datetime.now(Launchtime.tzinfo)
+            lt_delta = currenttime - Launchtime
+            uptime = str(lt_delta)
+            if i.tags:
+                for idx, tag in enumerate(i.tags, start=1):
+                    if tag['Key'] == 'Name':
+                        Instancename = tag['Value']
+                        output = {
+                                    'Instancename': Instancename,
+                                    'Id': Id,
+                                    'State': State,
+                                    'Platform': str(Platform),
+                                    'InstanceType': InstanceType,
+                                    'Launchedtime': str(Launchtime),
+                                    'Region': region,
+                                    'Uptime': uptime
+                                    }
+                        writer.writerow(output)
