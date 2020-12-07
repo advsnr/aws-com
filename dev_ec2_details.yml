@@ -1,0 +1,33 @@
+---
+- name: Running ec2 information list script
+  hosts: localhost
+  become: true
+  gather_facts: no
+  vars:
+   smtp_username: AKIARGTG3ET63BFU5L6P
+   smtp_password: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          37383339616236383465616432393466316262386538616438663132393838363934353135343936
+          6235323637646337313261613038323161333738636161390a303466613837363166633733643432
+          34663433336230313163346562666333653036616161623733306165313065386235373366633137
+          3862666463393139610a633031623566656631356330623839353234613830343132633037623239
+          31383630306238303837623233663265623531636363333237363164373831613139663764383362
+          6366356465366663303435633932653336613330353865653539
+
+  tasks:
+
+    - name: Running script in directory
+      command: files/list_instances_dev.py
+
+    - name: Send the latest report
+      mail:
+        host: email-smtp.us-west-2.amazonaws.com
+        port: 587
+        username: "{{ smtp_username }}"
+        password: "{{ smtp_password }}"
+        from: srahman@cleo.com
+        to: rpassmore@cleo.com, hnajam@cleo.com, srahman@cleo.com
+        subject: EC2 report for Development environment
+        body: 'Attached is the report'
+        attach: /tmp/ec2_instance_report.csv
+      delegate_to: localhost
