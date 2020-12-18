@@ -1,0 +1,31 @@
+---
+- name: Running cloudformation information list script
+  hosts: localhost
+  gather_facts: no
+  vars:
+    smtp_username: AKIARGTG3ET63BFU5L6P
+    smtp_password: !vault |
+      $ANSIBLE_VAULT;1.1;AES256
+      65366131653432313130323561666131633236373061626632366632396464356632633466623339
+      3066363562623663313938633030666436343063313461380a656338306636653538666630393964
+      36323733323831366639646562396631626561393531363032316238623133343261313062656265
+      6135393138653239350a333634646661303531623262613265373336643662653133386663613564
+      65383831303131376638333937646363626465333736663835323266363165613563326163663563
+      3962666433663964376163636333306534396566383336306166
+  tasks:
+    - name: Running script in directory
+      command: "{{ playbook_dir }}/files/dev_cloudformation_report.py"
+      changed_when: false
+
+    - name: Send the cludformation report
+      mail:
+        host: email-smtp.us-west-2.amazonaws.com
+        port: 587
+        username: "{{ smtp_username }}"
+        password: "{{ smtp_password }}"
+        from: srahman@cleo.com
+        to: dev-ec2-report@cleo.com
+        subject: Cloudformation report for Development environment
+        body: 'Attached is the development environment Cloudformation report'
+        attach: /tmp/cloudformation_stack_report.csv
+      delegate_to: localhost
