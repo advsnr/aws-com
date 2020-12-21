@@ -25,8 +25,8 @@
         port: 587
         username: "{{ smtp_username }}"
         password: "{{ smtp_password }}"
-        from: srahman@cleo.com
-        to: rpassmore@cleo.com, hnajam@cleo.com, srahman@cleo.com
+        from: shamim@abcd.com
+        to: someone@abcd.com
         subject: EC2 report for Development environment
         body: 'Attached is the report'
         attach: /tmp/ec2_instance_report.csv

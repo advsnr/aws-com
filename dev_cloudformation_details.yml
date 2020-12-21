@@ -23,8 +23,8 @@
         port: 587
         username: "{{ smtp_username }}"
         password: "{{ smtp_password }}"
-        from: srahman@cleo.com
-        to: dev-ec2-report@cleo.com
+        from: abs@abc.com
+        to: dev-env-report@abc.com
         subject: Cloudformation report for Development environment
         body: 'Attached is the development environment Cloudformation report'
         attach: /tmp/cloudformation_stack_report.csv
