@@ -1,0 +1,421 @@
+Instancename,Id,State,Platform,InstanceType,Launchedtime,Region,Uptime,Instancebuilder
+abc-01,i-0ebb4d2be55eddd06,stopped,windows,m5.large,2019-10-29 21:00:28+00:00,us-west-2, ,abc@abc.com
+abc-02,i-0ff3bd94f3a17fd53,stopped,Unix/Linux,m5.2xlarge,2019-10-29 21:44:46+00:00,us-west-2, ,abc@abc.com
+abc-03,i-01e487e2278810881,stopped,windows,m5.large,2019-10-30 19:02:09+00:00,us-west-2, ,abc@abc.com
+abc-04,i-0523c7c05f186c7b5,running,Unix/Linux,t3a.medium,2020-08-26 17:13:15+00:00,us-west-2,"116 days, 7:52:02.698333",abc@abc.com
+abc-05,i-0d45e076d10bcd70e,running,windows,t3a.medium,2020-12-09 13:21:33+00:00,us-west-2,"11 days, 11:43:44.698354",abc@abc.com
+abc-06,i-039a84ebf3eca8393,running,Unix/Linux,t3.micro,2019-11-12 23:18:06+00:00,us-west-2,"404 days, 1:47:11.698375",abc@abc.com
+abc-07,i-0616a0550e403572b,running,Unix/Linux,m5.large,2020-09-18 07:04:19+00:00,us-west-2,"93 days, 18:00:58.698403",abc@abc.com
+abc-08,i-06566f4e778fb92b3,stopped,windows,t3a.medium,2019-12-20 15:08:29+00:00,us-west-2, ,abc@abc.com
+abc-09,i-0807300ccd6f7079c,running,Unix/Linux,t3a.medium,2019-11-13 17:27:42+00:00,us-west-2,"403 days, 7:37:35.698442",abc@abc.com
+abc-10,i-0a35f7e802cdc3a55,stopped,Unix/Linux,t3.micro,2019-12-17 20:36:32+00:00,us-west-2, ,abc@abc.com
+abc-11,i-0ba8f87f58740f8fa,stopped,Unix/Linux,t3.medium,2019-12-17 21:01:54+00:00,us-west-2, ,abc@abc.com
+abc-12,i-0ff2b9010310a13bd,stopped,windows,t3.large,2019-12-17 21:01:37+00:00,us-west-2, ,abc@abc.com
+abc-13,i-0c1fd67de099f86a6,running,Unix/Linux,t3a.nano,2019-12-30 18:54:02+00:00,us-west-2,"356 days, 6:11:15.698546",abc@abc.com
+abc-14,i-0067e53274a0705db,running,Unix/Linux,t3.micro,2019-12-30 20:01:46+00:00,us-west-2,"356 days, 5:03:31.698564",abc@abc.com
+abc-15,i-091d0941371b90277,running,Unix/Linux,t3.medium,2019-12-30 20:15:06+00:00,us-west-2,"356 days, 4:50:11.698583",abc@abc.com
+abc-16,i-02a86291b0813a290,running,windows,m4.large,2019-12-30 20:14:56+00:00,us-west-2,"356 days, 4:50:21.698603",abc@abc.com
+abc-17,i-0c836c59469426f77,running,Unix/Linux,t3a.medium,2020-11-30 18:03:41+00:00,us-west-2,"20 days, 7:01:36.698631",abc@abc.com
+abc-18,i-0be621fa34f1c12d8,running,windows,t3a.medium,2020-11-30 18:03:18+00:00,us-west-2,"20 days, 7:01:59.698652",abc@abc.com
+abc-19,i-0b71411259118d96c,stopped,Unix/Linux,t3.micro,2020-02-27 06:03:22+00:00,us-west-2, ,abc@abc.com
+abc-20,i-01fe87790384d4998,stopped,windows,m4.large,2020-03-04 11:50:19+00:00,us-west-2, ,abc@abc.com
+abc-21,i-0fc142381fd853075,stopped,Unix/Linux,t2.medium,2020-02-24 10:11:54+00:00,us-west-2, ,abc@abc.com
+abc-22,i-0281722f09aa8f0a8,stopped,Unix/Linux,t2.medium,2020-03-04 11:50:19+00:00,us-west-2, ,abc@abc.com
+abc-23,i-05adea1f8ddc9da21,running,Unix/Linux,t3.micro,2020-05-12 04:42:38+00:00,us-west-2,"222 days, 20:22:39.698760",abc@abc.com
+abc-24,i-09728f8fb50c0b4db,running,Unix/Linux,t3a.medium,2020-11-05 06:12:37+00:00,us-west-2,"45 days, 18:52:40.698779",abc@abc.com
+abc-25,i-040f8f21f44060bcb,running,windows,m5.large,2020-12-07 15:37:32+00:00,us-west-2,"13 days, 9:27:45.698800",abc@abc.com
+abc-26,i-098291ba0f7e28492,stopped,Unix/Linux,t3.micro,2020-03-17 14:41:28+00:00,us-west-2, ,abc@abc.com
+abc-27,i-0c893b54b9c3acc88,stopped,Unix/Linux,t3a.medium,2020-03-17 14:57:44+00:00,us-west-2, ,abc@abc.com
+abc-28,i-073931219cf74f664,stopped,windows,t3a.large,2020-03-17 19:45:14+00:00,us-west-2, ,abc@abc.com
+abc-29,i-041fa730252636280,running,Unix/Linux,t3.micro,2020-03-17 15:17:26+00:00,us-west-2,"278 days, 9:47:51.698960",abc@abc.com
+abc-30,i-09cce266afadaedec,running,Unix/Linux,t3a.medium,2020-03-17 15:33:08+00:00,us-west-2,"278 days, 9:32:09.698979",abc@abc.com
+abc-31,i-022b4ae3d54967486,running,windows,t3a.large,2020-05-13 13:15:18+00:00,us-west-2,"221 days, 11:49:59.698999",abc@abc.com
+abc-32,i-049300708fe2b49f7,running,Unix/Linux,t3.micro,2020-04-03 09:30:46+00:00,us-west-2,"261 days, 15:34:31.699029",abc@abc.com
+abc-33,i-068ec511e89d817d8,running,Unix/Linux,t3.micro,2020-04-21 05:58:09+00:00,us-west-2,"243 days, 19:07:08.699056",abc@abc.com
+abc-34,i-00739138a82070860,stopped,Unix/Linux,t3.medium,2020-04-21 06:11:13+00:00,us-west-2, ,abc@abc.com
+abc-35,i-00601b972ce901d37,running,Unix/Linux,t2.medium,2020-07-28 10:53:38+00:00,us-west-2,"145 days, 14:11:39.699099",abc@abc.com
+abc-36,i-02b66b8e14dd08269,running,windows,m4.large,2020-04-21 06:11:14+00:00,us-west-2,"243 days, 18:54:03.699119",abc@abc.com
+abc-37,i-0d64b9ba9e49154f8,running,Unix/Linux,t3.micro,2020-05-13 11:45:11+00:00,us-west-2,"221 days, 13:20:06.699148",abc@abc.com
+abc-38,i-05b813ec64ff8aa51,stopped,Unix/Linux,t2.medium,2020-05-13 11:58:56+00:00,us-west-2, ,abc@abc.com
+abc-39,i-07c7453d18e375f99,running,windows,m4.large,2020-05-13 11:58:56+00:00,us-west-2,"221 days, 13:06:21.699187",abc@abc.com
+abc-40,i-0fb40ca24f1f9902b,running,Unix/Linux,t2.medium,2020-05-13 11:59:03+00:00,us-west-2,"221 days, 13:06:14.699208",abc@abc.com
+abc-41,i-0ad66769dc25c54fd,running,Unix/Linux,t3.medium,2020-05-14 07:49:41+00:00,us-west-2,"220 days, 17:15:36.699239",abc@abc.com
+abc-42,i-05d78c6a9e21a646b,running,Unix/Linux,t3a.nano,2020-07-06 13:16:43+00:00,us-west-2,"167 days, 11:48:34.699265",abc@abc.com
+abc-43,i-05d6ba1c340341599,running,Unix/Linux,t3a.medium,2020-05-22 22:56:13+00:00,us-west-2,"212 days, 2:09:04.699281",abc@abc.com
+abc-44,i-0b95f5b18a7b5e145,running,windows,t3a.medium,2020-08-06 20:29:59+00:00,us-west-2,"136 days, 4:35:18.699301",abc@abc.com
+abc-45,i-096d9a73c56dfb4af,running,Unix/Linux,t3.micro,2020-05-26 17:17:51+00:00,us-west-2,"208 days, 7:47:26.699322",abc@abc.com
+abc-46,i-07afb16084e4355d8,running,windows,m5.large,2020-05-26 17:43:50+00:00,us-west-2,"208 days, 7:21:27.699341",abc@abc.com
+abc-47,i-083fa34a64850578c,running,Unix/Linux,t3.medium,2020-05-26 17:43:57+00:00,us-west-2,"208 days, 7:21:20.699362",abc@abc.com
+abc-48,i-0e0924e925aee76ad,running,Unix/Linux,t3.micro,2020-05-26 20:20:49+00:00,us-west-2,"208 days, 4:44:28.699382",abc@abc.com
+abc-49,i-0381b9391e0262184,running,windows,m5.large,2020-05-26 20:34:54+00:00,us-west-2,"208 days, 4:30:23.699401",abc@abc.com
+abc-50,i-072d899452919010e,running,Unix/Linux,t3.medium,2020-05-28 08:37:37+00:00,us-west-2,"206 days, 16:27:40.699422",abc@abc.com
+abc-51,i-0020dc718e7a7d399,running,Unix/Linux,t3.micro,2020-06-06 18:07:50+00:00,us-west-2,"197 days, 6:57:27.699451",abc@abc.com
+abc-52,i-0afabc22c21b51e5a,running,windows,m5.large,2020-06-06 18:18:23+00:00,us-west-2,"197 days, 6:46:54.699487",abc@abc.com
+abc-53,i-084db5b2d3d89afe5,running,Unix/Linux,t3.medium,2020-06-06 18:14:46+00:00,us-west-2,"197 days, 6:50:31.699509",abc@abc.com
+abc-54,i-0cb64a34cd96bc96c,stopped,Unix/Linux,t3.micro,2020-06-06 19:08:33+00:00,us-west-2, ,abc@abc.com
+abc-55,i-081442eff8773ec33,running,Unix/Linux,t3.micro,2020-06-06 19:13:22+00:00,us-west-2,"197 days, 5:51:55.699551",abc@abc.com
+abc-56,i-01dd3257232314ac8,stopped,Unix/Linux,t3.medium,2020-06-06 19:15:49+00:00,us-west-2, ,abc@abc.com
+abc-57,i-0c20173038c14b2b2,stopped,windows,m5.large,2020-06-06 19:19:28+00:00,us-west-2, ,abc@abc.com
+abc-58,i-049f3f8f286c0f8d6,stopped,Unix/Linux,t3.medium,2020-06-06 19:28:01+00:00,us-west-2, ,abc@abc.com
+abc-59,i-057bb4a16572bd924,running,Unix/Linux,t3.medium,2020-06-06 19:28:11+00:00,us-west-2,"197 days, 5:37:06.699631",abc@abc.com
+abc-60,i-0e7d7a14dc389859c,running,windows,m5.large,2020-06-06 19:28:02+00:00,us-west-2,"197 days, 5:37:15.699651",abc@abc.com
+abc-61,i-0f9f11c3323bd0bd6,running,Unix/Linux,t3.micro,2020-06-07 00:56:25+00:00,us-west-2,"197 days, 0:08:52.699672",abc@abc.com
+abc-62,i-0c10a17ac172eba90,running,windows,m5.large,2020-06-07 01:10:43+00:00,us-west-2,"196 days, 23:54:34.699691",abc@abc.com
+abc-63,i-04e5316052b448041,running,Unix/Linux,t3.medium,2020-06-19 09:30:15+00:00,us-west-2,"184 days, 15:35:02.699712",abc@abc.com
+abc-64,i-0c2751f468393ce84,running,Unix/Linux,t3.medium,2020-10-26 15:12:46+00:00,us-west-2,"55 days, 9:52:31.699732",abc@abc.com
+abc-65,i-0f1d5619a32f10165,running,Unix/Linux,t3.micro,2020-06-08 18:53:10+00:00,us-west-2,"195 days, 6:12:07.699752",abc@abc.com
+abc-66,i-05d7e720300d64c9a,stopped,windows,m5.large,2020-06-08 19:04:33+00:00,us-west-2, ,abc@abc.com
+abc-67,i-0e91c4bda02204363,stopped,windows,m5.large,2020-06-09 14:51:26+00:00,us-west-2, ,abc@abc.com
+abc-68,i-020a209f81eab5dce,running,Unix/Linux,t3.micro,2020-06-09 14:33:44+00:00,us-west-2,"194 days, 10:31:33.699812",abc@abc.com
+abc-69,i-0d0f0f96adf11b1f2,running,Unix/Linux,t3a.medium,2020-07-10 19:02:59+00:00,us-west-2,"163 days, 6:02:18.699831",abc@abc.com
+abc-70,i-0b4cf40230c5c633e,stopped,Unix/Linux,t3.micro,2020-06-09 21:35:15+00:00,us-west-2, ,abc@abc.com
+abc-71,i-07b38a5ed3c7beacf,running,Unix/Linux,t3.micro,2020-06-09 22:42:29+00:00,us-west-2,"194 days, 2:22:48.699872",abc@abc.com
+abc-72,i-06dd718fb227e61d2,running,Unix/Linux,t3.micro,2020-06-11 19:48:29+00:00,us-west-2,"192 days, 5:16:48.699892",abc@abc.com
+abc-73,i-073fc2ed09c3a7eed,running,windows,t3.large,2020-06-11 19:48:29+00:00,us-west-2,"192 days, 5:16:48.699912",abc@abc.com
+abc-74,i-03579449bdd92af8f,running,Unix/Linux,t3.xlarge,2020-08-06 18:30:26+00:00,us-west-2,"136 days, 6:34:51.699932",abc@abc.com
+abc-75,i-0fba59ebb03cef5d4,running,Unix/Linux,t3.micro,2020-06-22 17:12:48+00:00,us-west-2,"181 days, 7:52:29.699972",abc@abc.com
+abc-76,i-0a933f977384a48f3,running,Unix/Linux,t3a.medium,2020-06-22 17:29:05+00:00,us-west-2,"181 days, 7:36:12.699991",abc@abc.com
+abc-77,i-00c589dfef666b84a,running,Unix/Linux,t3.medium,2020-06-24 07:36:18+00:00,us-west-2,"179 days, 17:28:59.700011",abc@abc.com
+abc-78,i-0ed26e2161bcd2b78,running,Unix/Linux,t3.medium,2020-06-24 07:36:32+00:00,us-west-2,"179 days, 17:28:45.700044",abc@abc.com
+abc-79,i-05161a782937c507e,running,Unix/Linux,t3.medium,2020-07-07 15:50:09+00:00,us-west-2,"166 days, 9:15:08.700065",abc@abc.com
+abc-80,i-024fba2a049db326a,running,Unix/Linux,t3.micro,2020-07-08 03:43:49+00:00,us-west-2,"165 days, 21:21:28.700083",abc@abc.com
+abc-81,i-01813ce04436f191c,running,Unix/Linux,t3.medium,2020-12-02 00:58:05+00:00,us-west-2,"19 days, 0:07:12.700103",abc@abc.com
+abc-82,i-0d1639d6dc6376a87,stopped,windows,m5.large,2020-12-02 00:58:14+00:00,us-west-2, ,abc@abc.com
+abc-83,i-0f8035472b0715500,running,Unix/Linux,t3a.nano,2020-07-09 18:07:22+00:00,us-west-2,"164 days, 6:57:55.700143",abc@abc.com
+abc-84,i-0f963521c8683379d,running,Unix/Linux,t3.micro,2020-07-15 09:06:04+00:00,us-west-2,"158 days, 15:59:13.700159",abc@abc.com
+abc-85,i-0b08209e0f2aa599e,running,windows,m4.large,2020-07-15 09:20:38+00:00,us-west-2,"158 days, 15:44:39.700179",abc@abc.com
+abc-86,i-0cff4b614879c3ffa,stopped,Unix/Linux,t2.medium,2020-07-15 09:20:37+00:00,us-west-2, ,abc@abc.com
+abc-87,i-0e6a37e166d240254,stopped,Unix/Linux,t2.medium,2020-07-15 09:20:45+00:00,us-west-2, ,abc@abc.com
+abc-88,i-07b3dd12bee27719e,running,Unix/Linux,t3.medium,2020-07-15 12:29:45+00:00,us-west-2,"158 days, 12:35:32.700240",abc@abc.com
+abc-89,i-067434c9e1b7b10a6,running,Unix/Linux,t3.micro,2020-07-16 14:58:09+00:00,us-west-2,"157 days, 10:07:08.700258",abc@abc.com
+abc-90,i-0689340949e0a4755,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700278",abc@abc.com
+abc-91,i-054d217b16f5c6b87,running,windows,t3a.large,2020-07-16 16:29:45+00:00,us-west-2,"157 days, 8:35:32.700300",abc@abc.com
+abc-92,i-0f220660c7343e926,running,Unix/Linux,t3.micro,2020-07-16 16:29:24+00:00,us-west-2,"157 days, 8:35:53.700319",abc@abc.com
+abc-93,i-0c56a78ebcee1dbd0,running,Unix/Linux,t3.micro,2020-07-16 16:34:03+00:00,us-west-2,"157 days, 8:31:14.700339",abc@abc.com
+abc-94,i-0c6a36803ec6fec32,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700359",abc@abc.com
+abc-95,i-01c04262dba00b4a5,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700379",abc@abc.com
+abc-96,i-0387a6e85271922f9,running,Unix/Linux,t3.micro,2020-07-16 17:07:38+00:00,us-west-2,"157 days, 7:57:39.700399",abc@abc.com
+abc-97,i-0f4da72270ba1166f,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700419",abc@abc.com
+abc-98,i-0501f2e18c1e7c3f6,running,Unix/Linux,t3.micro,2020-07-16 17:14:08+00:00,us-west-2,"157 days, 7:51:09.700438",abc@abc.com
+abc-99,i-0c10f15f857296d89,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700458",abc@abc.com
+abc-100,i-046b40a63a646a9fd,running,windows,t3a.large,2020-07-16 17:35:47+00:00,us-west-2,"157 days, 7:29:30.700478",abc@abc.com
+abc-101,i-031372c4ba852f728,running,windows,t3a.large,2020-07-16 17:52:57+00:00,us-west-2,"157 days, 7:12:20.700497",abc@abc.com
+abc-102,i-02279a028a1d0bec3,running,windows,t3a.large,2020-07-16 17:48:53+00:00,us-west-2,"157 days, 7:16:24.700516",abc@abc.com
+abc-103,i-05983492bf0bd3716,running,Unix/Linux,t3.micro,2020-07-16 18:02:26+00:00,us-west-2,"157 days, 7:02:51.700550",abc@abc.com
+abc-104,i-0043d4b035000319a,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700572",abc@abc.com
+abc-105,i-0cef26ead2d6bb0cf,running,Unix/Linux,t3.micro,2020-07-16 18:25:25+00:00,us-west-2,"157 days, 6:39:52.700592",abc@abc.com
+abc-106,i-0dff557dd0f0bcdce,running,Unix/Linux,t3.micro,2020-07-16 18:18:16+00:00,us-west-2,"157 days, 6:47:01.700612",abc@abc.com
+abc-107,i-026a0cb1588514e94,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700632",abc@abc.com
+abc-108,i-023fe5f316b3bd3a2,running,windows,t3a.large,2020-08-13 13:49:51+00:00,us-west-2,"129 days, 11:15:26.700651",abc@abc.com
+abc-109,i-033c8eab93eb7ffa9,running,Unix/Linux,t3a.medium,2020-08-10 18:09:02+00:00,us-west-2,"132 days, 6:56:15.700670",abc@abc.com
+abc-110,i-02fc63218d8d09c8a,running,windows,t3a.large,2020-08-13 14:06:24+00:00,us-west-2,"129 days, 10:58:53.700691",abc@abc.com
+abc-111,i-001381111a088b441,running,windows,t3a.large,2020-07-16 18:59:09+00:00,us-west-2,"157 days, 6:06:08.700710",abc@abc.com
+abc-112,i-0eeb5242649b2f6df,running,windows,t3a.large,2020-07-16 18:55:20+00:00,us-west-2,"157 days, 6:09:57.700729",abc@abc.com
+abc-113,i-09ffe001185ebf359,running,Unix/Linux,t3.micro,2020-07-16 19:07:46+00:00,us-west-2,"157 days, 5:57:31.700748",abc@abc.com
+abc-114,i-08cc0b0b76eec3f5a,running,Unix/Linux,t3a.medium,2020-10-29 16:28:33+00:00,us-west-2,"52 days, 8:36:44.700767",abc@abc.com
+abc-115,i-0a238fa2f1f28b1fa,running,Unix/Linux,t3.micro,2020-07-27 14:56:13+00:00,us-west-2,"146 days, 10:09:04.700787",abc@abc.com
+abc-116,i-0145f440ac5cf20d8,running,windows,m4.large,2020-07-27 15:10:28+00:00,us-west-2,"146 days, 9:54:49.700807",abc@abc.com
+abc-117,i-013f364479913d98e,stopped,Unix/Linux,t2.medium,2020-07-27 15:10:28+00:00,us-west-2, ,abc@abc.com
+abc-118,i-0e8af74c55166e08b,running,Unix/Linux,t2.medium,2020-07-27 15:11:03+00:00,us-west-2,"146 days, 9:54:14.700847",abc@abc.com
+abc-119,i-08e9fa25dc2351ddb,running,Unix/Linux,t3.medium,2020-07-27 16:39:34+00:00,us-west-2,"146 days, 8:25:43.700868",abc@abc.com
+abc-120,i-0df11a8833d82662a,running,Unix/Linux,t3.medium,2020-08-07 12:26:46+00:00,us-west-2,"135 days, 12:38:31.700893",abc@abc.com
+abc-121,i-01daeb25eb751aab8,running,Unix/Linux,t3.medium,2020-08-12 04:34:56+00:00,us-west-2,"130 days, 20:30:21.700910",abc@abc.com
+abc-122,i-061a995f3366cce56,running,windows,t3a.large,2020-10-29 16:07:33+00:00,us-west-2,"52 days, 8:57:44.700937",abc@abc.com
+abc-123,i-0ad5663d9dd4ccf39,running,Unix/Linux,t3.micro,2020-08-28 07:44:00+00:00,us-west-2,"114 days, 17:21:17.700965",abc@abc.com
+abc-124,i-0ebe4367f4facb094,running,Unix/Linux,t2.medium,2020-08-28 07:58:20+00:00,us-west-2,"114 days, 17:06:57.700984",abc@abc.com
+abc-125,i-073e20f450e905b00,running,windows,m4.large,2020-08-28 07:58:12+00:00,us-west-2,"114 days, 17:07:05.701005",abc@abc.com
+abc-126,i-0de8d64f876522bc7,running,Unix/Linux,t3.medium,2020-08-28 10:14:31+00:00,us-west-2,"114 days, 14:50:46.701026",abc@abc.com
+abc-127,i-0fd196ef044b548b1,running,Unix/Linux,t3.micro,2020-09-01 06:00:56+00:00,us-west-2,"110 days, 19:04:21.701043",abc@abc.com
+abc-128,i-06c18f5c7c70dd010,running,Unix/Linux,t2.medium,2020-09-01 06:14:52+00:00,us-west-2,"110 days, 18:50:25.701077",abc@abc.com
+abc-129,i-01d4c687b08b087ba,running,windows,m4.large,2020-09-01 06:14:45+00:00,us-west-2,"110 days, 18:50:32.701100",abc@abc.com
+abc-130,i-03d5b58af625326c9,stopped,Unix/Linux,t3.micro,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-131,i-0191663c527b11e26,stopped,Unix/Linux,t3.medium,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-132,i-0e61e5e0d60f26046,stopped,Unix/Linux,t3.medium,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-133,i-0239b399309f23263,stopped,windows,m5.large,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-134,i-0ef5bf2649947e37f,running,Unix/Linux,t3.medium,2020-09-09 11:38:21+00:00,us-west-2,"102 days, 13:26:56.701215",abc@abc.com
+abc-135,i-028188e4e111849f7,running,Unix/Linux,t3.large,2020-09-15 12:58:49+00:00,us-west-2,"96 days, 12:06:28.701252",abc@abc.com
+abc-136,i-095d1d57edef7c2a0,running,Unix/Linux,t3.medium,2020-09-16 18:34:09+00:00,us-west-2,"95 days, 6:31:08.701281",abc@abc.com
+abc-137,i-0e3431dcfda265a42,stopped,Unix/Linux,t3.micro,2020-09-30 10:12:50+00:00,us-west-2, ,abc@abc.com
+abc-138,i-06f0281ba1dd0f5b8,stopped,windows,m5.large,2020-09-30 10:12:50+00:00,us-west-2, ,abc@abc.com
+abc-139,i-093bf4a1e1ae04013,stopped,Unix/Linux,t3.medium,2020-09-30 10:12:50+00:00,us-west-2, ,abc@abc.com
+abc-140,i-0a27d29599126a6d1,running,Unix/Linux,t3.micro,2020-09-25 09:39:24+00:00,us-west-2,"86 days, 15:25:53.701397",abc@abc.com
+abc-141,i-0b4c78bcf222e9bdc,running,windows,m5.large,2020-10-19 10:47:43+00:00,us-west-2,"62 days, 14:17:34.701416",abc@abc.com
+abc-142,i-0217a6317105e8cba,running,Unix/Linux,t3.medium,2020-10-19 10:48:00+00:00,us-west-2,"62 days, 14:17:17.701436",abc@abc.com
+abc-143,i-03529988863164578,running,Unix/Linux,t3.medium,2020-12-04 15:06:02+00:00,us-west-2,"16 days, 9:59:15.701456",abc@abc.com
+abc-144,i-0cab06a803c31e1ad,stopped,Unix/Linux,t3.micro,2020-09-27 16:35:35+00:00,us-west-2, ,abc@abc.com
+abc-145,i-0386862696a515e4c,stopped,Unix/Linux,t3.medium,2020-09-27 16:50:51+00:00,us-west-2, ,abc@abc.com
+abc-146,i-0292e9553b82b692e,stopped,Unix/Linux,t3.medium,2020-09-27 16:51:00+00:00,us-west-2, ,abc@abc.com
+abc-147,i-0daecd1ab34be85d1,stopped,windows,m5.large,2020-09-27 16:50:51+00:00,us-west-2, ,abc@abc.com
+abc-148,i-09965ffc9f87257ac,running,Unix/Linux,t3.medium,2020-09-27 20:06:42+00:00,us-west-2,"84 days, 4:58:35.701550",abc@abc.com
+abc-149,i-06141fc3dd2c9b941,running,Unix/Linux,t3.medium,2020-09-28 17:15:36+00:00,us-west-2,"83 days, 7:49:41.701569",abc@abc.com
+abc-150,i-015d8283a60959aa6,running,Unix/Linux,t3.medium,2020-09-29 05:50:37+00:00,us-west-2,"82 days, 19:14:40.701587",abc@abc.com
+abc-151,i-0e86e2b06aa606286,running,Unix/Linux,t3.micro,2020-09-30 10:30:52+00:00,us-west-2,"81 days, 14:34:25.701604",abc@abc.com
+abc-152,i-020d4f61d7b14f827,running,windows,m5.large,2020-09-30 10:30:52+00:00,us-west-2,"81 days, 14:34:25.701624",abc@abc.com
+abc-153,i-02c49aeb12c21367d,running,Unix/Linux,t3.medium,2020-09-30 10:30:52+00:00,us-west-2,"81 days, 14:34:25.701643",abc@abc.com
+abc-154,i-06fd315f542cd23a5,running,Unix/Linux,t3.micro,2020-10-01 19:18:00+00:00,us-west-2,"80 days, 5:47:17.701689",abc@abc.com
+abc-155,i-0624bd4273f20dc53,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-156,i-0386d5b059deb10e5,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.701729",abc@abc.com
+abc-157,i-067e2b0886b2c8a56,running,Unix/Linux,t3.micro,2020-10-01 20:59:09+00:00,us-west-2,"80 days, 4:06:08.701749",abc@abc.com
+abc-158,i-0e7c0a8ef9b870645,running,Unix/Linux,t3a.medium,2020-10-23 21:09:32+00:00,us-west-2,"58 days, 3:55:45.701770",abc@abc.com
+abc-159,i-0ef86fc63f9304615,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-160,i-0f8b0c28111a26a7f,running,Unix/Linux,t3.micro,2020-10-01 21:39:21+00:00,us-west-2,"80 days, 3:25:56.701810",abc@abc.com
+abc-161,i-0b72fefbe773e5fad,running,Unix/Linux,t3a.medium,2020-10-23 15:20:11+00:00,us-west-2,"58 days, 9:45:06.701829",abc@abc.com
+abc-162,i-0c095220a196f7d6d,stopped,windows,t3a.medium,2020-10-23 11:44:08+00:00,us-west-2, ,abc@abc.com
+abc-163,i-0bf621ded7360dcf5,running,Unix/Linux,t3.micro,2020-10-02 00:56:24+00:00,us-west-2,"80 days, 0:08:53.701869",abc@abc.com
+abc-164,i-05f276cea21430718,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.701888",abc@abc.com
+abc-165,i-0fea64eb1649da3d6,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-166,i-01a03e23e6224bde3,running,Unix/Linux,t3.micro,2020-10-02 01:17:38+00:00,us-west-2,"79 days, 23:47:39.701929",abc@abc.com
+abc-167,i-0e27893fa333cf2bb,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-168,i-08262a0dcc17b2344,running,Unix/Linux,t3a.medium,2020-10-23 21:09:01+00:00,us-west-2,"58 days, 3:56:16.701968",abc@abc.com
+abc-169,i-0f37180545d34095c,running,Unix/Linux,t3.micro,2020-10-02 01:43:45+00:00,us-west-2,"79 days, 23:21:32.701989",abc@abc.com
+abc-170,i-0583383fd36e6cc52,stopped,windows,t3a.medium,2020-10-23 11:44:08+00:00,us-west-2, ,abc@abc.com
+abc-171,i-00db94ea0b0b11034,running,Unix/Linux,t3a.medium,2020-10-23 15:19:54+00:00,us-west-2,"58 days, 9:45:23.702028",abc@abc.com
+abc-172,i-039a92cfffe31b065,running,Unix/Linux,t3.micro,2020-10-02 13:59:08+00:00,us-west-2,"79 days, 11:06:09.702049",abc@abc.com
+abc-173,i-0e45def1217aeb9a8,running,Unix/Linux,t3.micro,2020-10-02 14:09:17+00:00,us-west-2,"79 days, 10:56:00.702068",abc@abc.com
+abc-174,i-0f3725b736fc6dd7f,running,Unix/Linux,t3.micro,2020-10-02 14:04:12+00:00,us-west-2,"79 days, 11:01:05.702088",abc@abc.com
+abc-175,i-0191bf7c3fc3b16a1,running,Unix/Linux,t3a.medium,2020-10-23 21:09:22+00:00,us-west-2,"58 days, 3:55:55.702108",abc@abc.com
+abc-176,i-001a9860fb93baf3d,running,Unix/Linux,t3a.medium,2020-10-23 15:19:51+00:00,us-west-2,"58 days, 9:45:26.702128",abc@abc.com
+abc-177,i-00074798875c6c916,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-178,i-097fdf3aef6333c88,running,Unix/Linux,t3a.medium,2020-10-23 14:40:03+00:00,us-west-2,"58 days, 10:25:14.702186",abc@abc.com
+abc-179,i-04a7d90bcd0851205,stopped,windows,t3a.medium,2020-10-23 11:45:54+00:00,us-west-2, ,abc@abc.com
+abc-180,i-06696a5011771525d,stopped,windows,t3a.medium,2020-10-23 11:44:08+00:00,us-west-2, ,abc@abc.com
+abc-181,i-0bc08c37741eb5316,stopped,Unix/Linux,m5.2xlarge,2019-10-29 21:44:46+00:00,us-west-2, ,abc@abc.com
+abc-182,i-0d2f36341bbbdf46a,running,Unix/Linux,t3a.medium,2020-07-24 13:22:39+00:00,us-west-2,"149 days, 11:42:38.702544",abc@abc.com
+abc-183,i-065ef24a34135ba6e,running,Unix/Linux,t3a.small,2019-11-12 23:41:50+00:00,us-west-2,"404 days, 1:23:27.702565",abc@abc.com
+abc-184,i-0cadcbeb84335131d,running,Unix/Linux,t3a.medium,2019-11-13 17:27:42+00:00,us-west-2,"403 days, 7:37:35.702583",abc@abc.com
+abc-185,i-058566c4b3122d43a,stopped,Unix/Linux,t3.medium,2020-03-25 17:43:31+00:00,us-west-2, ,abc@abc.com
+abc-186,i-0986df00111292d1c,running,Unix/Linux,t3.medium,2019-12-30 20:15:07+00:00,us-west-2,"356 days, 4:50:10.702622",abc@abc.com
+abc-187,i-074fd146b2fba4bbe,running,Unix/Linux,t3.medium,2020-01-03 04:44:07+00:00,us-west-2,"352 days, 20:21:10.702642",abc@abc.com
+abc-188,i-03cabc2a9066b932d,running,Unix/Linux,t3a.medium,2020-11-30 18:03:41+00:00,us-west-2,"20 days, 7:01:36.702671",abc@abc.com
+abc-189,i-01cb7e882dad65d93,stopped,Unix/Linux,t2.medium,2020-03-04 11:50:19+00:00,us-west-2, ,abc@abc.com
+abc-190,i-04b2558b6513bfbed,running,Unix/Linux,t3a.medium,2020-11-05 06:12:42+00:00,us-west-2,"45 days, 18:52:35.702720",abc@abc.com
+abc-191,i-07c3c46d4ec230d4d,stopped,Unix/Linux,t3a.medium,2020-03-17 14:57:44+00:00,us-west-2, ,abc@abc.com
+abc-192,i-0f7d12b369debfdbb,running,Unix/Linux,t3a.medium,2020-03-17 15:33:08+00:00,us-west-2,"278 days, 9:32:09.702761",abc@abc.com
+abc-193,i-016dd1e67719f6486,running,Unix/Linux,t2.medium,2020-07-28 10:53:38+00:00,us-west-2,"145 days, 14:11:39.702807",abc@abc.com
+abc-194,i-0d9ed39e997bcb8af,running,Unix/Linux,t2.medium,2020-05-13 11:59:03+00:00,us-west-2,"221 days, 13:06:14.702844",abc@abc.com
+abc-195,i-051be1cb6417527cb,running,Unix/Linux,t3.medium,2020-05-26 17:43:57+00:00,us-west-2,"208 days, 7:21:20.702883",abc@abc.com
+abc-196,i-0cef7c404c11e8859,running,Unix/Linux,t3.medium,2020-05-28 08:37:37+00:00,us-west-2,"206 days, 16:27:40.702904",abc@abc.com
+abc-197,i-0ed0f73ddc2a05fc6,running,Unix/Linux,t3.medium,2020-06-06 19:28:10+00:00,us-west-2,"197 days, 5:37:07.702924",abc@abc.com
+abc-198,i-0e2bfd4586fec1717,running,Unix/Linux,t3.medium,2020-06-19 09:30:15+00:00,us-west-2,"184 days, 15:35:02.702945",abc@abc.com
+abc-199,i-0ddfd513f9cfd64ec,stopped,Unix/Linux,t3a.medium,2020-07-10 19:03:00+00:00,us-west-2, ,abc@abc.com
+abc-200,i-0c3e7262f8a88f4f0,running,Unix/Linux,t3.medium,2020-06-10 08:49:17+00:00,us-west-2,"193 days, 16:16:00.702986",abc@abc.com
+abc-201,i-0fb88db13caed0e21,running,Unix/Linux,t3.xlarge,2020-08-06 18:30:26+00:00,us-west-2,"136 days, 6:34:51.703003",abc@abc.com
+abc-202,i-0cafdbc2995ea1885,running,Unix/Linux,t3a.medium,2020-06-22 17:29:05+00:00,us-west-2,"181 days, 7:36:12.703038",abc@abc.com
+abc-203,i-03d6eef80740fba1c,running,Unix/Linux,t3.medium,2020-07-07 15:50:09+00:00,us-west-2,"166 days, 9:15:08.703061",abc@abc.com
+abc-204,i-08d45a1253c2a4064,running,Unix/Linux,t2.medium,2020-07-15 09:20:44+00:00,us-west-2,"158 days, 15:44:33.703078",abc@abc.com
+abc-205,i-01027085734d871da,running,Unix/Linux,t3.medium,2020-07-19 15:37:21+00:00,us-west-2,"154 days, 9:27:56.703099",abc@abc.com
+abc-206,i-0592d6e2aa292a8ab,running,Unix/Linux,t2.medium,2020-07-27 15:11:03+00:00,us-west-2,"146 days, 9:54:14.703118",abc@abc.com
+abc-207,i-04d986b63ba88f2fa,running,Unix/Linux,t3.medium,2020-08-27 14:45:38+00:00,us-west-2,"115 days, 10:19:39.703138",abc@abc.com
+abc-208,i-06a122a52b2f52831,running,Unix/Linux,t2.medium,2020-08-28 07:58:20+00:00,us-west-2,"114 days, 17:06:57.703156",abc@abc.com
+abc-209,i-0139820647ff8ea35,running,Unix/Linux,t2.medium,2020-09-01 06:14:52+00:00,us-west-2,"110 days, 18:50:25.703176",abc@abc.com
+abc-210,i-0cb71e0ea864c7cfe,running,Unix/Linux,t3.medium,2020-09-01 09:00:41+00:00,us-west-2,"110 days, 16:04:36.703197",abc@abc.com
+abc-211,i-073b8b2caca4cf2e1,stopped,Unix/Linux,t3.medium,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-212,i-019444f13b5daf8e1,running,Unix/Linux,t3.medium,2020-09-15 11:53:29+00:00,us-west-2,"96 days, 13:11:48.703283",abc@abc.com
+abc-213,i-054203cdaa457a3ae,running,Unix/Linux,t3.large,2020-09-15 12:58:49+00:00,us-west-2,"96 days, 12:06:28.703301",abc@abc.com
+abc-214,i-0e4a261914524192c,stopped,Unix/Linux,t3.medium,2020-09-30 10:12:50+00:00,us-west-2, ,abc@abc.com
+abc-215,i-0fdac8f96e30d8134,running,Unix/Linux,t3.medium,2020-10-19 10:48:00+00:00,us-west-2,"62 days, 14:17:17.703375",abc@abc.com
+abc-216,i-05edd490feec1feef,stopped,Unix/Linux,t3.medium,2020-09-27 16:51:00+00:00,us-west-2, ,abc@abc.com
+abc-217,i-07b284569a6bbaad0,running,Unix/Linux,t3.medium,2020-09-30 10:30:52+00:00,us-west-2,"81 days, 14:34:25.703417",abc@abc.com
+abc-218,i-05b41d47019d3d70a,running,Unix/Linux,t3.medium,2020-09-29 19:56:18+00:00,us-west-2,"82 days, 5:08:59.703437",abc@abc.com
+abc-219,i-0a9256c9c694bf54a,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.703456",abc@abc.com
+abc-220,i-0c36d51dfcef416a5,running,Unix/Linux,t3a.medium,2020-10-23 21:09:32+00:00,us-west-2,"58 days, 3:55:45.703477",abc@abc.com
+abc-221,i-09018605ba3a9f8ad,running,Unix/Linux,t3a.medium,2020-10-23 15:20:12+00:00,us-west-2,"58 days, 9:45:05.703498",abc@abc.com
+abc-222,i-07a996aec45c7e708,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.703519",abc@abc.com
+abc-223,i-059a4020b5ca38061,running,Unix/Linux,t3a.medium,2020-10-23 21:09:02+00:00,us-west-2,"58 days, 3:56:15.703539",abc@abc.com
+abc-224,i-03255deceba1ac83f,running,Unix/Linux,t3a.medium,2020-10-23 15:19:55+00:00,us-west-2,"58 days, 9:45:22.703560",abc@abc.com
+abc-225,i-052548f5c096fd676,running,Unix/Linux,t3a.medium,2020-10-23 21:09:22+00:00,us-west-2,"58 days, 3:55:55.703594",abc@abc.com
+abc-226,i-06a78b4b5dd49b2cc,running,Unix/Linux,t3a.medium,2020-10-23 14:40:03+00:00,us-west-2,"58 days, 10:25:14.703617",abc@abc.com
+abc-227,i-0b191c8a9b5ad31dd,running,Unix/Linux,t3a.medium,2020-10-23 15:19:52+00:00,us-west-2,"58 days, 9:45:25.703637",abc@abc.com
+abc-228,i-0557547c2ff3933b1,running,Unix/Linux,t3.medium,2020-10-04 20:30:16+00:00,us-west-2,"77 days, 4:35:01.703658",abc@abc.com
+abc-229,i-0780ace2ff10f94e3,running,Unix/Linux,t3.medium,2020-10-05 01:42:56+00:00,us-west-2,"76 days, 23:22:21.703677",abc@abc.com
+abc-230,i-092766cb77aaacbbd,running,Unix/Linux,t3.medium,2020-11-30 18:06:50+00:00,us-west-2,"20 days, 6:58:27.703695",abc@abc.com
+abc-231,i-03337a03d3743b379,stopped,Unix/Linux,t3.medium,2020-11-30 18:05:14+00:00,us-west-2, ,abc@abc.com
+abc-232,i-0bf68927ab584c1b4,running,Unix/Linux,t3.medium,2020-10-09 07:39:01+00:00,us-west-2,"72 days, 17:26:16.703754",abc@abc.com
+abc-233,i-02eb6649cc2581301,running,Unix/Linux,t3.medium,2020-10-14 07:25:14+00:00,us-west-2,"67 days, 17:40:03.703780",abc@abc.com
+abc-234,i-085f79f51a7799ca5,running,Unix/Linux,t3.medium,2020-11-04 11:47:17+00:00,us-west-2,"46 days, 13:18:00.703805",abc@abc.com
+abc-235,i-023f501cc1e075103,running,Unix/Linux,t3.medium,2020-10-20 07:31:18+00:00,us-west-2,"61 days, 17:33:59.703826",abc@abc.com
+abc-236,i-0af44eea9c8e8578c,running,Unix/Linux,t3.medium,2020-10-21 20:41:42+00:00,us-west-2,"60 days, 4:23:35.703847",abc@abc.com
+abc-237,i-048f95bb9f264288e,running,Unix/Linux,t3.medium,2020-10-23 20:35:44+00:00,us-west-2,"58 days, 4:29:33.703864",abc@abc.com
+abc-238,i-09b5865498be65c12,running,Unix/Linux,t2.medium,2020-10-28 13:50:35+00:00,us-west-2,"53 days, 11:14:42.703882",abc@abc.com
+abc-239,i-05f1e0d3dd322c1cd,stopped,Unix/Linux,t3a.medium,2020-11-07 00:36:42+00:00,us-west-2, ,abc@abc.com
+abc-240,i-0555783c41f254d30,stopped,Unix/Linux,t3a.medium,2020-11-07 00:47:42+00:00,us-west-2, ,abc@abc.com
+abc-241,i-0c75c3c970945f6e1,running,Unix/Linux,m5.xlarge,2020-11-10 12:52:29+00:00,us-west-2,"40 days, 12:12:48.704001",abc@abc.com
+abc-242,i-0d0e7be0de5f30b2d,running,Unix/Linux,t3.medium,2020-11-13 11:28:03+00:00,us-west-2,"37 days, 13:37:14.704027",abc@abc.com
+abc-243,i-0e02f806dbe692152,running,Unix/Linux,t3a.medium,2020-11-18 12:57:53+00:00,us-west-2,"32 days, 12:07:24.704048",abc@abc.com
+abc-244,i-07e9f6d37864b1619,running,Unix/Linux,t3.medium,2020-11-18 15:17:32+00:00,us-west-2,"32 days, 9:47:45.704069",abc@abc.com
+abc-245,i-029cabd5ba812513a,running,Unix/Linux,t3.medium,2020-11-23 14:34:45+00:00,us-west-2,"27 days, 10:30:32.704088",abc@abc.com
+abc-246,i-05499d7844906b582,running,Unix/Linux,m5.large,2020-11-30 10:07:25+00:00,us-west-2,"20 days, 14:57:52.704118",abc@abc.com
+abc-247,i-02a20b8b2f6c1bf46,running,Unix/Linux,t3.medium,2020-12-02 14:41:30+00:00,us-west-2,"18 days, 10:23:47.704135",abc@abc.com
+abc-248,i-0e8bebbfd4ba1d061,running,Unix/Linux,t3.medium,2020-12-02 17:25:04+00:00,us-west-2,"18 days, 7:40:13.704156",abc@abc.com
+abc-249,i-0f2efbad720e68b13,running,Unix/Linux,t3.medium,2020-12-08 07:02:45+00:00,us-west-2,"12 days, 18:02:32.704200",abc@abc.com
+abc-250,i-0838aaa363c1c3f38,stopped,Unix/Linux,t3a.medium,2020-12-18 15:28:02+00:00,us-west-2, ,abc@abc.com
+abc-251,i-05c11f1fa4a2f2fec,running,Unix/Linux,t3.medium,2020-12-14 04:45:58+00:00,us-west-2,"6 days, 20:19:19.704240",abc@abc.com
+abc-252,i-0e257449c0f1df8aa,running,Unix/Linux,t3.medium,2020-12-16 20:09:51+00:00,us-west-2,"4 days, 4:55:26.704280",abc@abc.com
+abc-253,i-0a9d4ad02a5afe122,running,Unix/Linux,t3.medium,2020-12-17 07:25:18+00:00,us-west-2,"3 days, 17:39:59.704297",abc@abc.com
+abc-254,i-0dc8812a5f9a9809a,running,Unix/Linux,t3.medium,2020-12-17 07:52:11+00:00,us-west-2,"3 days, 17:13:06.704318",abc@abc.com
+abc-255,i-0953cfa727d44ea38,running,Unix/Linux,t3.medium,2020-12-17 08:12:18+00:00,us-west-2,"3 days, 16:52:59.704337",abc@abc.com
+abc-256,i-0593e2c26a6eea493,running,Unix/Linux,t3.medium,2020-12-17 14:38:50+00:00,us-west-2,"3 days, 10:26:27.704354",abc@abc.com
+abc-257,i-09d749421f374c7d8,stopped,Unix/Linux,m5.2xlarge,2019-10-29 21:44:46+00:00,us-west-2, ,abc@abc.com
+abc-258,i-01175681567f458ac,running,Unix/Linux,t3a.medium,2019-11-06 23:26:05+00:00,us-west-2,"410 days, 1:39:12.704599",abc@abc.com
+abc-259,i-05bdb1560079bdf8d,stopped,Unix/Linux,t3.medium,2019-12-17 20:53:10+00:00,us-west-2, ,abc@abc.com
+abc-260,i-0d9036f813f42d0f0,stopped,Unix/Linux,t3.medium,2019-12-17 21:01:54+00:00,us-west-2, ,abc@abc.com
+abc-261,i-0cd7970d8dd4a6f65,running,Unix/Linux,t3.medium,2019-12-30 20:15:07+00:00,us-west-2,"356 days, 4:50:10.704659",abc@abc.com
+abc-262,i-0c31441aee7ef7c83,running,Unix/Linux,t3a.medium,2020-11-30 18:03:41+00:00,us-west-2,"20 days, 7:01:36.704680",abc@abc.com
+abc-263,i-0d2efa71c769f93d7,stopped,Unix/Linux,t2.medium,2020-03-04 11:50:19+00:00,us-west-2, ,abc@abc.com
+abc-264,i-0b3c767648f65f3fe,running,Unix/Linux,t3a.medium,2020-11-05 06:12:32+00:00,us-west-2,"45 days, 18:52:45.704729",abc@abc.com
+abc-265,i-01be69fbc636fd986,stopped,Unix/Linux,t3a.medium,2020-03-17 14:57:43+00:00,us-west-2, ,abc@abc.com
+abc-266,i-0b1d22bd6227b3ae9,running,Unix/Linux,t3a.medium,2020-03-17 15:33:08+00:00,us-west-2,"278 days, 9:32:09.704776",abc@abc.com
+abc-267,i-084e271a7240b6ef5,running,Unix/Linux,t2.medium,2020-07-28 10:53:38+00:00,us-west-2,"145 days, 14:11:39.704813",abc@abc.com
+abc-268,i-03fd0fa8c155c7b04,running,Unix/Linux,t2.medium,2020-05-13 11:59:03+00:00,us-west-2,"221 days, 13:06:14.704837",abc@abc.com
+abc-269,i-05181a8b41df36974,running,Unix/Linux,t3.medium,2020-05-26 17:33:51+00:00,us-west-2,"208 days, 7:31:26.704868",abc@abc.com
+abc-270,i-05fd925d41215caaa,running,Unix/Linux,t3.medium,2020-05-26 17:43:57+00:00,us-west-2,"208 days, 7:21:20.704888",abc@abc.com
+abc-271,i-001630f96d7ef0fc0,running,Unix/Linux,t3.medium,2020-05-28 08:37:37+00:00,us-west-2,"206 days, 16:27:40.704910",abc@abc.com
+abc-272,i-0e82128d37d027efd,running,Unix/Linux,t3.medium,2020-06-06 19:28:10+00:00,us-west-2,"197 days, 5:37:07.704947",abc@abc.com
+abc-273,i-086f3f68d7d84af3a,running,Unix/Linux,t3.medium,2020-06-19 09:30:15+00:00,us-west-2,"184 days, 15:35:02.704967",abc@abc.com
+abc-274,i-079e339dbc92ff9b4,running,Unix/Linux,t3a.medium,2020-07-10 19:03:00+00:00,us-west-2,"163 days, 6:02:17.705002",abc@abc.com
+abc-275,i-046a71076d7bc38e2,running,Unix/Linux,t3.medium,2020-06-11 19:48:28+00:00,us-west-2,"192 days, 5:16:49.705025",abc@abc.com
+abc-276,i-050d2ee7eb41d8439,running,Unix/Linux,t3.xlarge,2020-08-06 18:30:27+00:00,us-west-2,"136 days, 6:34:50.705045",abc@abc.com
+abc-277,i-0c4ebfda1288849d9,running,Unix/Linux,t2.medium,2020-07-15 09:20:45+00:00,us-west-2,"158 days, 15:44:32.705098",abc@abc.com
+abc-278,i-0285a77a757815c67,running,Unix/Linux,t2.medium,2020-07-27 15:11:03+00:00,us-west-2,"146 days, 9:54:14.705118",abc@abc.com
+abc-279,i-029bf1c9254fbc8e1,running,Unix/Linux,t2.medium,2020-08-28 07:58:20+00:00,us-west-2,"114 days, 17:06:57.705177",abc@abc.com
+abc-280,i-010bc3b23709525bf,running,Unix/Linux,t2.medium,2020-09-01 06:14:53+00:00,us-west-2,"110 days, 18:50:24.705197",abc@abc.com
+abc-281,i-03652bd2a5c432ceb,stopped,Unix/Linux,t3.medium,2020-09-28 14:04:43+00:00,us-west-2, ,abc@abc.com
+abc-282,i-0570892b7ba38efd2,stopped,Unix/Linux,t3.medium,2020-09-30 10:12:50+00:00,us-west-2, ,abc@abc.com
+abc-283,i-01ab7cdecbf2c17a9,running,Unix/Linux,t3.medium,2020-10-19 10:48:00+00:00,us-west-2,"62 days, 14:17:17.705306",abc@abc.com
+abc-284,i-0684683a0447c31c7,stopped,Unix/Linux,t3.medium,2020-09-27 16:51:00+00:00,us-west-2, ,abc@abc.com
+abc-285,i-008bd4e4fed8a1122,running,Unix/Linux,t3.medium,2020-09-30 10:30:52+00:00,us-west-2,"81 days, 14:34:25.705346",abc@abc.com
+abc-286,i-0de7dc5522f0eb07d,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.705384",abc@abc.com
+abc-287,i-06641247b17f34036,running,Unix/Linux,t3a.medium,2020-10-23 21:09:33+00:00,us-west-2,"58 days, 3:55:44.705404",abc@abc.com
+abc-288,i-0310e7433ee2bc79d,running,Unix/Linux,t3a.medium,2020-10-23 15:20:12+00:00,us-west-2,"58 days, 9:45:05.705425",abc@abc.com
+abc-289,i-036ee667016cfd973,running,Unix/Linux,t3a.medium,2020-10-23 14:36:19+00:00,us-west-2,"58 days, 10:28:58.705445",abc@abc.com
+abc-290,i-0e7acb2e8f294bd50,running,Unix/Linux,t3a.medium,2020-10-23 21:09:02+00:00,us-west-2,"58 days, 3:56:15.705465",abc@abc.com
+abc-291,i-0a42b7177b19f3f80,running,Unix/Linux,t3a.medium,2020-10-23 15:19:55+00:00,us-west-2,"58 days, 9:45:22.705486",abc@abc.com
+abc-292,i-04582884b0cd0c6d3,running,Unix/Linux,t3a.medium,2020-10-23 21:09:22+00:00,us-west-2,"58 days, 3:55:55.705506",abc@abc.com
+abc-293,i-0561401f67362be1d,running,Unix/Linux,t3a.medium,2020-10-23 14:40:03+00:00,us-west-2,"58 days, 10:25:14.705527",abc@abc.com
+abc-294,i-0f6c72202ad471edb,running,Unix/Linux,t3a.medium,2020-10-23 15:19:52+00:00,us-west-2,"58 days, 9:45:25.705547",abc@abc.com
+abc-295,i-04c97b40f2755cfd1,running,Unix/Linux,t3.medium,2020-11-30 18:06:50+00:00,us-west-2,"20 days, 6:58:27.705567",abc@abc.com
+abc-296,i-062ebdbb4d25a5041,stopped,Unix/Linux,t3.medium,2020-11-30 18:05:14+00:00,us-west-2, ,abc@abc.com
+abc-297,i-018f052e10bf2c75e,running,Unix/Linux,t3.medium,2020-10-09 07:39:01+00:00,us-west-2,"72 days, 17:26:16.705624",abc@abc.com
+abc-298,i-05b24c8b992d44ed8,running,Unix/Linux,t3.medium,2020-10-14 07:25:14+00:00,us-west-2,"67 days, 17:40:03.705661",abc@abc.com
+abc-299,i-01f1e22a71d85c95b,running,Unix/Linux,t3.medium,2020-11-04 11:47:17+00:00,us-west-2,"46 days, 13:18:00.705681",abc@abc.com
+abc-300,i-090ea9cffb7b7b6bc,running,Unix/Linux,t3.medium,2020-10-20 07:31:18+00:00,us-west-2,"61 days, 17:33:59.705706",abc@abc.com
+abc-301,i-03ad7034437d324a8,running,Unix/Linux,t2.medium,2020-10-28 13:50:35+00:00,us-west-2,"53 days, 11:14:42.705727",abc@abc.com
+abc-302,i-00970c71383a40d00,stopped,Unix/Linux,t3a.medium,2020-11-07 00:47:42+00:00,us-west-2, ,abc@abc.com
+abc-303,i-0658d0deb745a7891,running,Unix/Linux,t3.medium,2020-11-13 11:28:03+00:00,us-west-2,"37 days, 13:37:14.705804",abc@abc.com
+abc-304,i-0e721cf4c266ea5f4,running,Unix/Linux,t3a.medium,2020-11-18 12:57:53+00:00,us-west-2,"32 days, 12:07:24.705824",abc@abc.com
+abc-305,i-0963bf2639f670d07,running,Unix/Linux,t3.medium,2020-11-23 14:34:45+00:00,us-west-2,"27 days, 10:30:32.705852",abc@abc.com
+abc-306,i-01a5189f2e608c024,running,Unix/Linux,t3.medium,2020-12-02 14:41:31+00:00,us-west-2,"18 days, 10:23:46.705872",abc@abc.com
+abc-307,i-07ab3440eee259972,running,Unix/Linux,t3.medium,2020-12-08 07:02:45+00:00,us-west-2,"12 days, 18:02:32.705892",abc@abc.com
+abc-308,i-00175ca773966ce91,stopped,Unix/Linux,t3a.medium,2020-12-18 15:28:03+00:00,us-west-2, ,abc@abc.com
+abc-309,i-040968e121f7f0648,running,Unix/Linux,t3.medium,2020-12-14 04:45:58+00:00,us-west-2,"6 days, 20:19:19.705932",abc@abc.com
+abc-310,i-0eb9cff387e6d1816,running,Unix/Linux,t3.medium,2020-12-17 07:25:19+00:00,us-west-2,"3 days, 17:39:58.705971",abc@abc.com
+abc-311,i-00776bdd87b691f38,running,Unix/Linux,t3.medium,2020-12-17 14:38:50+00:00,us-west-2,"3 days, 10:26:27.705992",abc@abc.com
+abc-312,i-0576f33f0287225fc,running,Unix/Linux,t3.micro,2020-10-06 20:59:39+00:00,us-west-2,"75 days, 4:05:38.706030",abc@abc.com
+abc-313,i-05774ffc2ca3d7383,running,windows,m5.large,2020-11-30 18:05:42+00:00,us-west-2,"20 days, 6:59:35.706049",abc@abc.com
+abc-314,i-08bbc9d4b5b9bd393,running,Unix/Linux,t3.medium,2020-11-30 18:06:50+00:00,us-west-2,"20 days, 6:58:27.706070",abc@abc.com
+abc-315,i-02ee755a0e2e1845c,stopped,Unix/Linux,t3.micro,2020-10-08 19:10:26+00:00,us-west-2, ,abc@abc.com
+abc-316,i-08d13679c1b45f066,stopped,Unix/Linux,t3.medium,2020-11-30 18:05:14+00:00,us-west-2, ,abc@abc.com
+abc-317,i-061489ff1be5f5470,stopped,windows,m5.large,2020-11-30 18:04:54+00:00,us-west-2, ,abc@abc.com
+abc-318,i-0e2f7bcbf26e0115b,running,Unix/Linux,t3.micro,2020-10-09 07:19:53+00:00,us-west-2,"72 days, 17:45:24.706160",abc@abc.com
+abc-319,i-070192d549adfc7ee,running,Unix/Linux,t3.medium,2020-10-09 07:39:01+00:00,us-west-2,"72 days, 17:26:16.706179",abc@abc.com
+abc-320,i-04612138513273435,running,windows,m5.large,2020-10-09 07:38:37+00:00,us-west-2,"72 days, 17:26:40.706214",abc@abc.com
+abc-321,i-06ece1bb2ee5e8832,running,Unix/Linux,t3.micro,2020-10-14 07:06:25+00:00,us-west-2,"67 days, 17:58:52.706236",abc@abc.com
+abc-322,i-08c3a3ff106ded3cc,running,windows,m5.large,2020-10-14 07:25:04+00:00,us-west-2,"67 days, 17:40:13.706257",abc@abc.com
+abc-323,i-028ccc76ebf8d6b63,running,Unix/Linux,t3.medium,2020-10-14 07:25:14+00:00,us-west-2,"67 days, 17:40:03.706277",abc@abc.com
+abc-324,i-003983080d7393676,running,Unix/Linux,t3.micro,2020-10-16 07:07:21+00:00,us-west-2,"65 days, 17:57:56.706297",abc@abc.com
+abc-325,i-02f2c414bc90d8fa6,running,Unix/Linux,t3.micro,2020-10-16 07:17:03+00:00,us-west-2,"65 days, 17:48:14.706317",abc@abc.com
+abc-326,i-08df674c7a075587a,running,windows,m5.large,2020-10-16 07:21:44+00:00,us-west-2,"65 days, 17:43:33.706337",abc@abc.com
+abc-327,i-06515aaaf6da3143f,running,Unix/Linux,m5.large,2020-10-20 05:25:26+00:00,us-west-2,"61 days, 19:39:51.706357",abc@abc.com
+abc-328,i-0eeaf76cb3263661a,running,windows,m5.large,2020-10-16 07:35:53+00:00,us-west-2,"65 days, 17:29:24.706376",abc@abc.com
+abc-329,i-0141f419508b2c3cd,running,Unix/Linux,t3.medium,2020-11-04 11:47:17+00:00,us-west-2,"46 days, 13:18:00.706397",abc@abc.com
+abc-330,i-0760646c439ad7ce3,running,Unix/Linux,t3.micro,2020-10-20 07:13:54+00:00,us-west-2,"61 days, 17:51:23.706417",abc@abc.com
+abc-331,i-08466e13ad7262ab7,running,windows,m5.large,2020-10-20 07:31:10+00:00,us-west-2,"61 days, 17:34:07.706437",abc@abc.com
+abc-332,i-021137898503672e5,running,Unix/Linux,t3.medium,2020-10-20 07:31:18+00:00,us-west-2,"61 days, 17:33:59.706457",abc@abc.com
+abc-333,i-0d0dab5c089a9722c,running,Unix/Linux,t3.medium,2020-10-20 17:57:12+00:00,us-west-2,"61 days, 7:08:05.706477",abc@abc.com
+abc-334,i-00046b6390c32fe47,running,Unix/Linux,t3a.nano,2020-10-21 13:55:32+00:00,us-west-2,"60 days, 11:09:45.706496",abc@abc.com
+abc-335,i-0c521305727bdf2b5,running,Unix/Linux,t3a.nano,2020-10-26 21:52:05+00:00,us-west-2,"55 days, 3:13:12.706513",abc@abc.com
+abc-336,i-0b4696a4f938d081d,running,Unix/Linux,t3.micro,2020-10-28 13:32:54+00:00,us-west-2,"53 days, 11:32:23.706530",abc@abc.com
+abc-337,i-04bea595773683a7b,running,windows,m4.large,2020-10-28 13:50:29+00:00,us-west-2,"53 days, 11:14:48.706548",abc@abc.com
+abc-338,i-0bed0abe779f1d913,running,Unix/Linux,t2.medium,2020-10-28 13:50:35+00:00,us-west-2,"53 days, 11:14:42.706568",abc@abc.com
+abc-339,i-0406293e184efe332,running,Unix/Linux,t3a.nano,2020-11-02 11:35:48+00:00,us-west-2,"48 days, 13:29:29.706589",abc@abc.com
+abc-340,i-0d485cfb6b03e32ef,running,Unix/Linux,t3.micro,2020-11-03 09:23:49+00:00,us-west-2,"47 days, 15:41:28.706625",abc@abc.com
+abc-341,i-0553781d9a55cb540,running,Unix/Linux,m5.large,2020-12-18 06:47:36+00:00,us-west-2,"2 days, 18:17:41.706644",abc@abc.com
+abc-342,i-0d95ac3ad15663b2e,running,windows,m5.large,2020-12-18 06:47:36+00:00,us-west-2,"2 days, 18:17:41.706667",abc@abc.com
+abc-343,i-0f7b96b93574a1a4f,stopped,Unix/Linux,t3.micro,2020-11-03 12:21:50+00:00,us-west-2, ,abc@abc.com
+abc-344,i-073d65ecb89cbedf5,stopped,Unix/Linux,t3.micro,2020-11-03 12:26:41+00:00,us-west-2, ,abc@abc.com
+abc-345,i-0cb1f70b38a1068c0,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-346,i-000a371e06e0f0fb3,stopped,windows,m5.large,2020-11-03 12:35:15+00:00,us-west-2, ,abc@abc.com
+abc-347,i-02e2714182c5065a2,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-348,i-06ef4314ff1587532,stopped,windows,m5.large,2020-11-03 12:38:30+00:00,us-west-2, ,abc@abc.com
+abc-349,i-019778574ed8d2ad9,stopped,Unix/Linux,t3.micro,2020-11-03 17:56:05+00:00,us-west-2, ,abc@abc.com
+abc-350,i-0bac1fb1c4ad47643,stopped,Unix/Linux,t3.micro,2020-11-03 17:50:08+00:00,us-west-2, ,abc@abc.com
+abc-351,i-0b9dcb338e27fe97f,stopped,Unix/Linux,t3.micro,2020-11-03 18:01:08+00:00,us-west-2, ,abc@abc.com
+abc-352,i-082f972eea3029762,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-353,i-01b1074014b5c6d3a,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-354,i-043ceb69a1ed836a4,stopped,windows,m5.large,2020-11-03 18:02:43+00:00,us-west-2, ,abc@abc.com
+abc-355,i-0a5c96c3e8d74bdca,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-356,i-0df6f8585fc2a2327,stopped,windows,m5.large,2020-11-03 18:07:50+00:00,us-west-2, ,abc@abc.com
+abc-357,i-0e9be0b1fce8331ae,stopped,windows,m5.large,2020-11-03 18:13:30+00:00,us-west-2, ,abc@abc.com
+abc-358,i-0954e9f84eb14f6d6,stopped,Unix/Linux,t3.micro,2020-11-05 09:08:43+00:00,us-west-2, ,abc@abc.com
+abc-359,i-0b60dfc9eeaf57d47,stopped,Unix/Linux,m5.2xlarge,2020-11-24 12:02:13+00:00,us-west-2, ,abc@abc.com
+abc-360,i-094c26e5a7cbcc3c1,stopped,windows,m5.large,2020-11-05 09:20:53+00:00,us-west-2, ,abc@abc.com
+abc-361,i-06cc70860c14d4042,stopped,Unix/Linux,t3.micro,2020-11-30 13:16:25+00:00,us-west-2, ,abc@abc.com
+abc-362,i-076d8954ea7fa482b,stopped,windows,t3a.medium,2020-11-07 00:47:36+00:00,us-west-2, ,abc@abc.com
+abc-363,i-069c94217fcc0eaa8,stopped,Unix/Linux,t3a.medium,2020-11-07 00:47:42+00:00,us-west-2, ,abc@abc.com
+abc-364,i-0fac6fd9b182663b6,running,Unix/Linux,m5.xlarge,2020-11-10 12:52:29+00:00,us-west-2,"40 days, 12:12:48.707184",abc@abc.com
+abc-365,i-0bf70d1e5a875697c,running,Unix/Linux,t3a.nano,2020-11-10 16:35:48+00:00,us-west-2,"40 days, 8:29:29.707203",abc@abc.com
+abc-366,i-06f634f025cf0638e,running,Unix/Linux,t3.micro,2020-11-13 06:49:42+00:00,us-west-2,"37 days, 18:15:35.707219",abc@abc.com
+abc-367,i-02b829f6a30efaa88,running,windows,m5.large,2020-11-13 07:04:13+00:00,us-west-2,"37 days, 18:01:04.707239",abc@abc.com
+abc-368,i-0b9e557c8616e62c8,running,Unix/Linux,t3.medium,2020-11-13 11:28:03+00:00,us-west-2,"37 days, 13:37:14.707258",abc@abc.com
+abc-369,i-07fc1601a1788dc45,running,Unix/Linux,t3.micro,2020-11-18 12:42:02+00:00,us-west-2,"32 days, 12:23:15.707279",abc@abc.com
+abc-370,i-06995b139110ac09d,running,windows,t3a.medium,2020-11-18 12:57:42+00:00,us-west-2,"32 days, 12:07:35.707299",abc@abc.com
+abc-371,i-05b4990adc404776f,running,Unix/Linux,t3a.medium,2020-11-18 12:57:53+00:00,us-west-2,"32 days, 12:07:24.707318",abc@abc.com
+abc-372,i-05bb40570d99b72e9,running,Unix/Linux,t3.medium,2020-11-18 14:00:21+00:00,us-west-2,"32 days, 11:04:56.707352",abc@abc.com
+abc-373,i-0ddb885086271da4b,running,Unix/Linux,t3a.nano,2020-11-23 11:54:16+00:00,us-west-2,"27 days, 13:11:01.707373",abc@abc.com
+abc-374,i-01708f30a0ca6d1e6,running,Unix/Linux,t3.micro,2020-11-23 13:55:44+00:00,us-west-2,"27 days, 11:09:33.707390",abc@abc.com
+abc-375,i-0d7eeffe06be73730,running,windows,m5.large,2020-11-23 14:34:20+00:00,us-west-2,"27 days, 10:30:57.707409",abc@abc.com
+abc-376,i-02bd3d26758cf1744,running,Unix/Linux,t3.medium,2020-11-23 14:34:45+00:00,us-west-2,"27 days, 10:30:32.707431",abc@abc.com
+abc-377,i-0c01d0cb73ec642c5,running,Unix/Linux,t3.medium,2020-11-23 15:51:36+00:00,us-west-2,"27 days, 9:13:41.707452",abc@abc.com
+abc-378,i-0c6674177b7328320,running,Unix/Linux,t3.medium,2020-11-23 16:10:40+00:00,us-west-2,"27 days, 8:54:37.707471",abc@abc.com
+abc-379,i-0a013cc4ffd5c4e69,running,Unix/Linux,t3a.nano,2020-11-25 06:04:46+00:00,us-west-2,"25 days, 19:00:31.707488",abc@abc.com
+abc-380,i-0288aa6479d9013a2,running,Unix/Linux,t3a.nano,2020-11-25 14:23:21+00:00,us-west-2,"25 days, 10:41:56.707505",abc@abc.com
+abc-381,i-0e9ddf7b55d8e5288,running,Unix/Linux,t3a.nano,2020-11-30 04:44:01+00:00,us-west-2,"20 days, 20:21:16.707531",abc@abc.com
+abc-382,i-0defea7ad21ed8cc2,running,Unix/Linux,m5.large,2020-11-30 10:07:26+00:00,us-west-2,"20 days, 14:57:51.707547",abc@abc.com
+abc-383,i-0f9909749a64ac6fa,running,Unix/Linux,t3a.nano,2020-12-02 00:03:48+00:00,us-west-2,"19 days, 1:01:29.707564",abc@abc.com
+abc-384,i-0390a26e38587499a,running,Unix/Linux,t3.micro,2020-12-02 14:25:07+00:00,us-west-2,"18 days, 10:40:10.707581",abc@abc.com
+abc-385,i-0c4e32f8db6edb918,running,windows,m5.large,2020-12-02 14:41:22+00:00,us-west-2,"18 days, 10:23:55.707600",abc@abc.com
+abc-386,i-0f2468e7ba1d56d2f,running,Unix/Linux,t3.medium,2020-12-02 14:41:31+00:00,us-west-2,"18 days, 10:23:46.707620",abc@abc.com
+abc-387,i-0fea99c99ec1c9c76,running,Unix/Linux,t3.medium,2020-12-02 16:29:23+00:00,us-west-2,"18 days, 8:35:54.707640",abc@abc.com
+abc-388,i-0641e1fd39d145b18,running,Unix/Linux,t3.micro,2020-12-14 09:09:23+00:00,us-west-2,"6 days, 15:55:54.707660",abc@abc.com
+abc-389,i-0f6fb5fea34386947,running,windows,m5.large,2020-12-14 09:09:23+00:00,us-west-2,"6 days, 15:55:54.707679",abc@abc.com
+abc-390,i-08d468f92c8bbc816,running,Unix/Linux,t2.medium,2020-12-15 05:34:42+00:00,us-west-2,"5 days, 19:30:35.707699",abc@abc.com
+abc-391,i-07e9b0149b590974f,running,Unix/Linux,t3.micro,2020-12-08 06:48:55+00:00,us-west-2,"12 days, 18:16:22.707748",abc@abc.com
+abc-392,i-0ba4fc6a7fc583c82,running,Unix/Linux,t3.medium,2020-12-08 07:02:45+00:00,us-west-2,"12 days, 18:02:32.707768",abc@abc.com
+abc-393,i-085d79f06a81be8bf,running,windows,m5.large,2020-12-08 07:02:37+00:00,us-west-2,"12 days, 18:02:40.707788",abc@abc.com
+abc-394,i-0ec827a0809e9ea27,stopped,Unix/Linux,t3.micro,2020-12-18 15:27:31+00:00,us-west-2, ,abc@abc.com
+abc-395,i-0a685c0e347f3b096,stopped,windows,t3a.medium,2020-12-18 15:28:04+00:00,us-west-2, ,abc@abc.com
+abc-396,i-0dce2fdc576228112,stopped,Unix/Linux,t3a.medium,2020-12-18 15:28:05+00:00,us-west-2, ,abc@abc.com
+abc-397,i-058b2fea62aa65527,running,Unix/Linux,t3a.nano,2020-12-11 02:08:49+00:00,us-west-2,"9 days, 22:56:28.707870",abc@abc.com
+abc-398,i-0ae8eb3f3ecf95570,running,Unix/Linux,t3.micro,2020-12-14 04:30:54+00:00,us-west-2,"6 days, 20:34:23.707920",abc@abc.com
+abc-399,i-050b96b405d204a61,running,windows,m5.large,2020-12-14 04:45:53+00:00,us-west-2,"6 days, 20:19:24.707942",abc@abc.com
+abc-400,i-0bb87bb71683b8743,running,Unix/Linux,t3.medium,2020-12-14 04:45:58+00:00,us-west-2,"6 days, 20:19:19.707963",abc@abc.com
+abc-401,i-05b66460a8e922a39,running,Unix/Linux,t3a.nano,2020-12-14 19:43:00+00:00,us-west-2,"6 days, 5:22:17.707983",abc@abc.com
+abc-402,i-0d2fcaf15752d916e,running,Unix/Linux,t3a.nano,2020-12-14 21:12:12+00:00,us-west-2,"6 days, 3:53:05.708000",abc@abc.com
+abc-403,i-0d3e9aa2fed92724f,running,Unix/Linux,t3a.nano,2020-12-15 01:28:59+00:00,us-west-2,"5 days, 23:36:18.708016",abc@abc.com
+abc-404,i-0ba24cec696d992de,running,Unix/Linux,t3a.nano,2020-12-15 17:13:43+00:00,us-west-2,"5 days, 7:51:34.708033",abc@abc.com
+abc-405,i-082c414fac14ab4ed,running,Unix/Linux,t3.micro,2020-12-15 23:49:16+00:00,us-west-2,"5 days, 1:16:01.708049",abc@abc.com
+abc-406,i-0f4d1a13af76dfee2,running,Unix/Linux,t3a.nano,2020-12-16 13:14:02+00:00,us-west-2,"4 days, 11:51:15.708068",abc@abc.com
+abc-407,i-008b8900a4b561736,running,Unix/Linux,t3.medium,2020-12-16 20:10:03+00:00,us-west-2,"4 days, 4:55:14.708085",abc@abc.com
+abc-408,i-02df33a2de000c9ce,running,Unix/Linux,t3a.nano,2020-12-16 21:47:43+00:00,us-west-2,"4 days, 3:17:34.708103",abc@abc.com
+abc-409,i-04404b058b332a55a,running,Unix/Linux,t3.micro,2020-12-17 07:11:53+00:00,us-west-2,"3 days, 17:53:24.708120",abc@abc.com
+abc-410,i-0ea99c6da66b41c6c,running,Unix/Linux,t3.medium,2020-12-17 07:25:19+00:00,us-west-2,"3 days, 17:39:58.708139",abc@abc.com
+abc-411,i-048a48b9203c3bffa,running,windows,m5.large,2020-12-17 07:25:08+00:00,us-west-2,"3 days, 17:40:09.708160",abc@abc.com
+abc-412,i-08009da2d1a11d946,running,Unix/Linux,t3.micro,2020-12-17 14:22:59+00:00,us-west-2,"3 days, 10:42:18.708180",abc@abc.com
+abc-413,i-05b2bbd58494ea6c1,running,windows,m5.large,2020-12-17 14:38:41+00:00,us-west-2,"3 days, 10:26:36.708199",abc@abc.com
+abc-414,i-07b785ca6e5ccfc37,running,Unix/Linux,t3.medium,2020-12-17 14:38:50+00:00,us-west-2,"3 days, 10:26:27.708219",abc@abc.com
+abc-415,i-087547f0587eda445,running,Unix/Linux,t3a.nano,2020-12-17 21:21:24+00:00,us-west-2,"3 days, 3:43:53.708239",abc@abc.com
+abc-416,i-0172b867872718d6c,running,Unix/Linux,t3a.nano,2020-12-17 23:40:35+00:00,us-west-2,"3 days, 1:24:42.708256",abc@abc.com
+abc-417,i-0d3de93638fe2d652,running,Unix/Linux,t3.micro,2020-11-18 01:38:22+00:00,us-east-1,"32 days, 23:26:58.509811",abc@abc.com
+abc-418,i-01e49c74b1b43348d,running,Unix/Linux,t3.medium,2020-10-27 18:22:07+00:00,eu-west-1,"54 days, 6:43:21.294106",abc@abc.com
+abc-419,i-013830a3c93d75227,running,Unix/Linux,t3a.nano,2020-10-30 13:13:17+00:00,eu-west-1,"51 days, 11:52:11.294153",abc@abc.com
+abc-420,i-00b1f8921b905a93b,running,Unix/Linux,t3.medium,2020-10-27 18:22:07+00:00,eu-west-1,"54 days, 6:43:21.294179",abc@abc.com
