@@ -1,0 +1,114 @@
+---
+#
+# Example usage: ansible-playbook playbooks/account/ec2_find_stop_instances.yml
+#
+- name: find instances
+  hosts: localhost
+  gather_facts: true
+  vars:
+    regions:
+      - ap-south-1
+      - ap-southeast-1
+      - ca-central-1
+      - eu-west-1
+      - eu-west-3
+      - us-east-1
+      - us-east-2
+      - us-west-1
+      - us-west-2
+    states:
+      - running
+      - shutting-down
+    threshold_seconds: 86400 # 1 day in seconds
+    stop_instances: False
+    mail_to: "dev-ec2-report@cleo.com"
+
+  tasks:
+  - name: gather info on EC2 instances
+    ec2_instance_facts:
+      region: "{{ item }}"
+      filters:
+        instance-state-name: "{{ states }}"
+    with_items: "{{ regions }}"
+    register: ec2_info
+
+  - name: combine results into a single list
+    set_fact:
+      ec2_instances: "{{ ec2_instances | default([]) + item.instances }}"
+    with_items: "{{ ec2_info.results }}"
+
+  - name: roughly filter instances expected to be running a long time
+    set_fact:
+      ec2_instances: "{{ ec2_instances \
+         | ec2_tags_without_name_like('Elasticsearch') \
+         | ec2_tags_without_name_like('jenkins') \
+         | ec2_tags_without_name_like('Kibana') \
+         | ec2_tags_without_name_like('solution') \
+         | ec2_tags_without_name_like('dev') \
+         | ec2_tags_without_name_like('crowsnest-vpc') \
+         | ec2_tags_without_name_like('artgen1') \
+         | ec2_tags_without_name_like('trinet') \
+         | ec2_tags_without_name_like('ECS') \
+         | is_shutdown_dates \
+         | threshold(threshold_seconds | int) \
+         | list }}"
+
+  - name: print instances for ec2 running instances need to be stopped
+    debug:
+      msg: "show {{ item.tags.Name  | default('') }}"
+    with_items: "{{ ec2_instances | ec2_report }}"
+
+  - name: Sent report to instancebuilder
+    set_fact:
+        mailing_list: "{{ mail_to | get_contacts }}"
+
+  - name: Send the latest report
+    mail:
+      host: email-smtp.us-west-2.amazonaws.com
+      port: 587
+      username: "{{ smtp_username }}"
+      password: "{{ smtp_password }}"
+      from: srahman@cleo.com
+      to: "{{ mailing_list|join(',') }}"
+      subject: EC2 report for Development environment
+      body: One or some of your EC2 instances been running for more than 24 hours. Please add 'shutdown_date' tag with the date you like to run those instances. Otherwise those will be stopped next week. Please contact with your team leader for any questions.
+      attach: /tmp/ec2_report.csv
+    delegate_to: localhost
+    when: mailing_list | length != 0
+
+  - block:
+    - name: determine which instances are part of an ASG
+      set_fact:
+        asg_instances: "{{ ec2_instances | is_asg }}"
+
+    - name: ensure any related ASG has a minimum size of zero
+      command: >
+          aws autoscaling update-auto-scaling-group
+            --region "{{ item.AvailabilityZone[:-1] }}"
+            --auto-scaling-group-name {{ item.AutoScalingGroupName }}
+            --min-size 0
+      register: min_size
+      failed_when: min_size.rc != 0
+      changed_when: min_size.rc == 0
+      with_items: "{{ asg_instances }}"
+
+    - name: put ASG instances in standby mode
+      command: >
+          aws autoscaling enter-standby
+            --region "{{ item.AvailabilityZone[:-1] }}"
+            --auto-scaling-group-name {{ item.AutoScalingGroupName }}
+            --instance-ids {{ item.InstanceId }}
+            --should-decrement-desired-capacity
+      register: enter_standby
+      failed_when: enter_standby.rc != 0 and 'is not in InService.' not in enter_standby.stderr
+      changed_when: enter_standby.rc == 0
+      with_items: "{{ asg_instances }}"
+
+    - name: Stop instances from list of running instances
+      ec2:
+        region: "{{ item.placement['availability_zone'][:-1] }}"
+        instance_ids: "{{ item.instance_id }}"
+        state: stopped
+      with_items: "{{ ec2_instances }}"
+
+    when: stop_instances

@@ -1,0 +1,23 @@
+---
+- name: Running Dev RDS report list script
+  hosts: localhost
+  gather_facts: no
+  vars:
+    mail_to: 'dev-ec2-report@cleo.com'
+  tasks:
+    - name: Running script in directory
+      command: "{{ playbook_dir }}/files/dev_rds_report.py"
+      changed_when: false
+
+    - name: Send the latest report
+      mail:
+        host: email-smtp.us-west-2.amazonaws.com
+        port: 587
+        username: "{{ smtp_username }}"
+        password: "{{ smtp_password }}"
+        from: srahman@cleo.com
+        to: "{{ mail_to }}"
+        subject: RDS report for Development environment
+        body: 'Attached is the development environment RDS report'
+        attach: /tmp/dev_rds_report.csv
+      delegate_to: localhost

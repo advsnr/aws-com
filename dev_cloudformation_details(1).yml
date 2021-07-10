@@ -1,0 +1,21 @@
+---
+- name: Running cloudformation information list script
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Running script in directory
+      command: "{{ playbook_dir }}/files/dev_cloudformation_report.py"
+      changed_when: false
+
+    - name: Send the cludformation report
+      mail:
+        host: email-smtp.us-west-2.amazonaws.com
+        port: 587
+        username: "{{ smtp_username }}"
+        password: "{{ smtp_password }}"
+        from: srahman@cleo.com
+        to: dev-ec2-report@cleo.com
+        subject: Cloudformation report for Development environment
+        body: 'Attached is the development environment Cloudformation report'
+        attach: /tmp/cloudformation_stack_report.csv
+      delegate_to: localhost

@@ -1,0 +1,41 @@
+---
+#
+# Example usage: ansible-playbook playbooks/account/certificate-report.yml
+#
+- name: generate certificate report
+  hosts: localhost
+  gather_facts: no
+  vars:
+    message: "Below is the {{ aws_account_id }} AWS account list of certificates about to expire (ARN, days remaining):\n\n"
+    mail_from: 'cic@cleo.com'
+    mail_to: 'dev-ec2-report@cleo.com'
+    mail_subject: "Expiring certificate(s) for AWS {{ aws_account_name }} account"
+    expiration_cutoff: 30
+  tasks:
+  - name: obtain all ACM certificates
+    aws_acm_facts:
+      region: "{{ item }}"
+    loop: "{{ regions | flatten(levels=1) }}"
+    register: acm_facts
+
+  - name: combine results into a single list
+    set_fact:
+      certificates: "{{ certificates | default([]) + item.certificates }}"
+    with_items: "{{ acm_facts.results }}"
+
+  - name: filter certificates by expiration
+    set_fact:
+      expiring: "{{ certificates | sort(attribute='not_after') | acm_remaining(expiration_cutoff) }}"
+
+  - name: email the report
+    mail:
+      host: email-smtp.us-west-2.amazonaws.com
+      port: 587
+      username: "{{ smtp_username }}"
+      password: "{{ smtp_password }}"
+      from: "{{ mail_from }}"
+      to: "{{ mail_to }}"
+      subject: "{{ mail_subject }}"
+      body: "{{ message }}{{ expiring | join('\n') }}"
+    when: expiring | length > 0
+    tags: mail

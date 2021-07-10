@@ -1,0 +1,2 @@
+Instancename,Id,State,Platform,InstanceType,Region,Instancebuilder
+Clarify server for testing,i-09e462f5782175708,running,windows,t2.small,ap-southeast-1a,srahman@cleo.com

@@ -1,0 +1,3 @@
+Instancename,Id,State,Platform,InstanceType,Launchedtime,Region,Uptime,Instancebuilder
+Clarify server for testing,i-09e462f5782175708,"{'code': 16, 'name': 'running'}",windows,t2.small,,ap-southeast-1a,,srahman@cleo.com
+Clarify server for testing,i-09e462f5782175708,"{'code': 16, 'name': 'running'}",windows,t2.small,,ap-southeast-1a,,srahman@cleo.com

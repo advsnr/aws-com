@@ -1,0 +1,8 @@
+---
+- name: Running S3 list script
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Running script in directory
+      command: "{{ playbook_dir }}/files/s3_infor.py"
+      changed_when: false
